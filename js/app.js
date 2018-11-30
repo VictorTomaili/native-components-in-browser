@@ -1,8 +1,8 @@
 import home from '/js/pages/home.js';
 
 class App {
-    constructor(){
-        this.app = document.querySelector('.app');
+    constructor(selector){
+        this.app = document.querySelector(selector);
         this.render();
     }
 
@@ -11,4 +11,4 @@ class App {
     }
 }
 
-export default new App();
+export default new App('[app]');
