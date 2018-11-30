@@ -24,4 +24,4 @@ class UserInfo extends HTMLElement {
 
 UserInfo.init();
 const userInfo = document.createElement(UserInfo.Name);
-export { userInfo };
+export default userInfo;

@@ -1,4 +1,4 @@
-import { userInfo } from '/js/components/userInfo.js';
+import userInfo from '/js/components/userInfo.js';
 
 class HomePage extends HTMLElement {
     static get Name() {
@@ -24,4 +24,4 @@ class HomePage extends HTMLElement {
 
 HomePage.init();
 const home = document.createElement(HomePage.Name);
-export { home }
+export default home

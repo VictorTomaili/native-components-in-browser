@@ -1,4 +1,4 @@
-import { home } from '/js/pages/home.js';
+import home from '/js/pages/home.js';
 
 class App {
     constructor(){
