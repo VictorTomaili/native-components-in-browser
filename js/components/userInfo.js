@@ -17,11 +17,11 @@ class UserInfo extends HTMLElement {
         `
     }
 
-    static InitPage() {
+    static init() {
         window.customElements.define(UserInfo.Name, UserInfo);
     }
 }
 
-UserInfo.InitPage();
+UserInfo.init();
 const userInfo = document.createElement(UserInfo.Name);
 export { userInfo };

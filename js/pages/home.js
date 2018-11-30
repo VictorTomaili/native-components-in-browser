@@ -17,11 +17,11 @@ class HomePage extends HTMLElement {
         this.append(userInfo);
     }
 
-    static InitPage(){
+    static init(){
         window.customElements.define(HomePage.Name, HomePage);
     }
 }
 
-HomePage.InitPage();
+HomePage.init();
 const home = document.createElement(HomePage.Name);
 export { home }
